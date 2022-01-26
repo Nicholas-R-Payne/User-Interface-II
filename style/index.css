@@ -52,6 +52,7 @@ table {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* header styles */
@@ -62,6 +63,12 @@ nav {
 
 header nav {
     justify-content: flex-end;
+}
+
+header nav button {
+    margin: 10px;
+    font-size: 20px;
+    border: solid black 1px;
 }
 
 header h1 {
@@ -84,6 +91,21 @@ header h1 {
     font-size: 50px;
     width: 600px;
     height: 400px;
+    margin: 10px;
+    border: solid black 1px;
+}
+
+/* project styles */
+
+.projectRow {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.project {
+    text-align: center;
 }
 
 /* footer styles */
@@ -92,4 +114,9 @@ footer {
     background-color: lightgrey;
     padding: 20px;
     text-align: center;
+}
+
+footer button {
+    font-size: 20px;
+    border: solid black 1px;
 }
