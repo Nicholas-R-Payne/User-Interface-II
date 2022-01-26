@@ -48,14 +48,16 @@ table {
 	border-spacing: 0;
 }
 
+/* link styles */
+
+a {
+    text-decoration: none;
+}
+
 /* header styles */
 
 nav {
     display: flex;
-}
-
-nav a {
-    text-decoration: none;
 }
 
 header nav {
@@ -69,6 +71,16 @@ header nav {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.top button {
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    width: 600px;
+    height: 400px;
 }
 
 /* footer styles */
