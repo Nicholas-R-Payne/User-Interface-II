@@ -48,8 +48,31 @@ table {
 	border-spacing: 0;
 }
 
-/* nav styles */
+/* header styles */
+
+nav {
+    display: flex;
+}
 
 nav a {
     text-decoration: none;
+}
+
+header nav {
+    justify-content: flex-end;
+}
+
+/* top styles */
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* footer styles */
+
+footer nav {
+    justify-content: center;
 }
