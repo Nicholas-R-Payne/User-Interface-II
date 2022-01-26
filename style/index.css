@@ -64,6 +64,10 @@ header nav {
     justify-content: flex-end;
 }
 
+header h1 {
+    font-size: 40px;
+}
+
 /* top styles */
 
 .top {
@@ -78,13 +82,14 @@ header nav {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 50px;
-    color: white;
     width: 600px;
     height: 400px;
 }
 
 /* footer styles */
 
-footer nav {
-    justify-content: center;
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
 }
