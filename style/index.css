@@ -59,13 +59,10 @@ a {
 
 nav {
     display: flex;
+    justify-content: space-between;
 }
 
-header nav {
-    justify-content: flex-end;
-}
-
-header nav button {
+nav button {
     margin: 10px;
     font-size: 20px;
     border: solid black 1px;
@@ -119,4 +116,18 @@ footer {
 footer button {
     font-size: 20px;
     border: solid black 1px;
+}
+
+/* responsive styles */
+
+@media(max-width: 800px){
+
+}
+
+@media(max-width: 500px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
