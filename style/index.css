@@ -48,6 +48,13 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
 /* link styles */
 
 a {
@@ -68,27 +75,26 @@ nav button {
     border: solid black 1px;
 }
 
-header h1 {
+h1 {
     font-size: 40px;
 }
 
 /* top styles */
 
 .top {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.top button {
     background-image: url("https://picsum.photos/600/400");
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 50px;
-    width: 600px;
-    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.top button {
     margin: 10px;
+    font-size: 20px;
     border: solid black 1px;
 }
 
@@ -129,5 +135,21 @@ footer button {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .links button {
+        width: 40%;
+    }
+
+    .top {
+        width: 80%;
+        margin: 0 auto;
     }
 }
