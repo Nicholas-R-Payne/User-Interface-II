@@ -129,7 +129,31 @@ footer button {
 /* responsive styles */
 
 @media(max-width: 800px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .links button {
+        width: 25%;
+    }
+
+    .top {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .project {
+        width: 40%;
+    }
 }
 
 @media(max-width: 500px){
@@ -153,5 +177,9 @@ footer button {
     .top {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .project {
+        width: 40%;
     }
 }
